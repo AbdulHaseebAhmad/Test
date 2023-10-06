@@ -27,8 +27,7 @@ const findLongestWordWithMostVowels = (sentence)=> {
     return longestWord;
   }
   
-  // Example usage:
   const inputSentence = "Smart people learn from everything and everyone, average people from their experience, stupid people already, have all the answers";
   const longest = findLongestWordWithMostVowels(inputSentence);
-  console.log("The longest word with the most vowels is: " + longest);
+  console.log(longest);
   
